@@ -1,14 +1,14 @@
 {
   "name": "firstinflight-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "First In Flight Skateboards is an e-commerce application that will showcase custom build skateboards.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "http-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brandon Sanders",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"

@@ -1,7 +1,7 @@
 {
   "name": "firstinflight-app",
   "version": "1.0.0",
-  "description": "First In Flight Skateboards is an e-commerce application that will showcase custom built skateboards.",
+  "description": "First In Flight Skateboards is an e-commerce application that will showcase custom built skateboards for sale.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,0 +1,159 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: $fontHeadings;
+}
+p,
+.btn {
+  @include font-size($p-font-sizes);
+}
+img {
+  max-width: 100%;
+}
+.app-header .bottom {
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+h1.logo {
+  margin: 0;
+}
+.app-header h1.logo a {
+  display: block;
+  background-image: url(/images/raptor-logo-light.png);
+  background-size: cover;
+  height: 55px;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 220px;
+}
+.app-header .top.fixed-top h1.logo a {
+  background-image: url(/images/raptor-logo-dark.png);
+  opacity: .9;
+}
+.app-header .bottom .inner {
+  width: 100%;
+}
+
+.app-header .bottom p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.75;
+  color: #cacaca;
+  @include font-size($p-font-sizes);
+}
+
+.app-header .top {
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  position: relative;
+  z-index: 2;
+}
+
+.app-header .fixed-top {
+  background: white;
+  position: fixed;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.app-header .top .navbar-nav {
+  line-height: 1.4;
+
+  @include device-md {
+    align-items: center;
+  }
+}
+
+.app-header .top .nav-item {
+  margin-left: 18px;
+
+  @include device-md-max {
+    line-height: 2;
+  }
+}
+
+.app-header .top .nav-item:last-child {
+  @include device-md-max {
+    display: none;
+  }
+}
+
+.app-header .top .navbar-dark .nav-item a {
+  color: white;
+  letter-spacing: .5px;
+  @include font-size($nav-font-sizes);
+  opacity: .7;
+  white-space:nowrap;
+  font-weight: 300;
+}
+
+.app-header .top.fixed-top .nav-item a {
+  color: black;
+  opacity: .8;
+}
+
+.app-header .top .nav-item a:hover {
+  opacity: 1;
+}
+
+.app-header .top i {
+  @include font-size($icon-sizes);
+}
+
+.app-header {
+  background: url(/images/bg-2.jpg);
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.app-header:after {
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .55);
+  position: absolute;
+}
+
+.app-header img {
+  @include logo-size($logo-sizes);
+}
+
+.app-recent-work {
+  text-align: center;
+}
+
+.app-recent-work a {
+  color: #444;
+  display: block;
+}
+
+.app-recent-work img {
+  margin-top: 28px;
+  @include device-md-max {
+    margin-top: 18px;
+  }
+}
+
+.app-blog .date {
+  font-size: 32px;
+  text-align: center;
+  line-height: 1;
+}
+
+.app-blog .date span {
+  font-size: .5em;
+}
+.app-services .row:first-child {
+  @include device-md {
+    margin-bottom: 16px;
+  }
+}

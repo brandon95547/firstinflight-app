@@ -1,5 +1,10 @@
 node_modules
-dist
-.cache
-.vs
-.DS_Store
+wp/wp-admin
+wp/wp-includes
+wp/*.php
+wp/*.html
+wp/*.txt
+wp/.htaccess
+wp/wp-content/plugins
+wp/wp-content/uploads
+wp/wp-content/*.php

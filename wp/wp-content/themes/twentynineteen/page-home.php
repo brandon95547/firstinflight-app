@@ -1,0 +1,332 @@
+<?php
+/**
+ * Template Name: Home Page
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since 1.0.0
+ */
+
+get_header();
+?>
+
+<div id="services" class="app-services pv-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h2 class="title-2 mb-3 c-dark">
+                    <span>
+                        We are a full service company
+                    </span>
+                    Our Services
+                </h2>
+                <p class="text-center w-50 m-auto c-medium">
+                    Whether you need a website designed or you have an awesome idea for an app you would like to get
+                    developed, we can provide a solution for you.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="iconset-1">
+                        <div class="left">
+                            <i class="material-icons c-primary">language</i>
+                        </div>
+                        <div class="right">
+                            <h2 class="rws-title">
+                                Website Development
+                            </h2>
+                            <p class="mt-3">
+                                The development process here at Raptor is very simple, as we guide you step by step to
+                                bring your idea to life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="iconset-1">
+                        <div class="left">
+                            <i class="material-icons c-primary">trending_up</i>
+                        </div>
+                        <div class="right">
+                            <h2 class="rws-title">
+                                Marketing
+                            </h2>
+                            <p class="mt-3">
+                                We offer SEO and PPC advertising. All you need is a great marketing plan and dedication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="iconset-1">
+                        <div class="left">
+                            <i class="material-icons c-primary">code</i>
+                        </div>
+                        <div class="right">
+                            <h2 class="rws-title">
+                                App Development
+                            </h2>
+                            <p class="mt-3">
+                                Do you have an app on the app store? If not, let's create you one. If you can think it,
+                                we can develop it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <div class="iconset-1">
+                        <div class="left">
+                            <i class="material-icons c-primary">color_lens</i>
+                        </div>
+                        <div class="right">
+                            <h2 class="rws-title">
+                                Design
+                            </h2>
+                            <p class="mt-3">
+                                Logos, websites, flyers, business cards and more. We believe in aesthetic principles,
+                                combined with balance and harmony.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="iconset-1">
+                        <div class="left">
+                            <i class="fab fa-wordpress c-primary"></i>
+                        </div>
+                        <div class="right">
+                            <h2 class="rws-title">
+                                WordPress Development
+                            </h2>
+                            <p class="mt-3">
+                                Every site we build comes with an easy to use admin dashboard. We also provide training
+                                on how to manage your site.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="iconset-1">
+                        <div class="left">
+                            <i class="material-icons c-primary">ondemand_video</i>
+                        </div>
+                        <div class="right">
+                            <h2 class="rws-title">
+                                Video Production
+                            </h2>
+                            <p class="mt-3">
+                                We provide promotional videos, commercials, introdutory videos, corporate videos and
+                                other genre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="recent-work" class="app-recent-work pv-7 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h2 class="title-2 mb-3 c-dark">
+                    Recent Work
+                </h2>
+                <p class="text-center w-50 m-auto c-medium">
+                    We take pride in making our clients happy and ideas come to life. Check out some of our recent work.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg"><a href="http://www.hwbsalon.com"><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-item-6.jpg"
+                            alt=""></a></div>
+                <div class="col-lg"><a href="http://www.courtreview.us"><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-item-1.jpg"
+                            alt=""></a></div>
+                <div class="col-lg"><a href="http://www.coopercos.com"><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-item-4.jpg"
+                            alt=""></a></div>
+            </div>
+            <div class="row">
+                <div class="col-lg"><a href="http://www.bluechipadvertising.com"><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-item-2.jpg"
+                            alt=""></a></div>
+                <div class="col-lg"><a href="http://www.crpa.net"><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-item-3.jpg" alt=""></a>
+                </div>
+                <div class="col-lg"><a href="http://www.grpa.org"><img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-item-5.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="blog" class="app-blog pv-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h2 class="title-2 mb-3 c-dark">
+                    Blog
+                </h2>
+                <p class="text-center w-50 m-auto c-medium">
+                    If you're intersted in software and technology, check out our blog where we talk about trending
+                    innovations.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="iconset-1 mt-2">
+                                <div class="left">
+                                    <p class="date">
+                                        14
+                                        <span>Dec</span>
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <h2 class="rws-title c-primary-darker">
+                                        CSS Frameworks for Professionals
+                                    </h2>
+                                    <p class="mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit laudantium
+                                        exercitationem deserunt libero magni iste non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="iconset-1 mt-2">
+                                <div class="left">
+                                    <p class="date">
+                                        16
+                                        <span>Dec</span>
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <h2 class="rws-title c-primary-darker">
+                                        Great ES6 Resources
+                                    </h2>
+                                    <p class="mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit laudantium
+                                        exercitationem deserunt libero magni iste non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="iconset-1 mt-2">
+                                <div class="left">
+                                    <p class="date">
+                                        18
+                                        <span>Dec</span>
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <h2 class="rws-title c-primary-darker">
+                                        Happy Holidays!
+                                    </h2>
+                                    <p class="mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit laudantium
+                                        exercitationem deserunt libero magni iste non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="iconset-1 mt-2">
+                                <div class="left">
+                                    <p class="date">
+                                        20
+                                        <span>Dec</span>
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <h2 class="rws-title c-primary-darker">
+                                        Build an Application with NodeJS
+                                    </h2>
+                                    <p class="mt-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit laudantium
+                                        exercitationem deserunt libero magni iste non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="app-contact-1 pv-7 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg">
+                <h2 class="title-2 mb-3 c-dark">
+                    <span class="c-secondary">
+                        Get in touch
+                    </span>
+                    Contact
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form class="mt-4">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" required>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <textarea rows="6" class="form-control c-medium mt-3" placeholder="Message"></textarea>
+                    <p class="text-center mt-5">
+                        <button type="submit" class="btn btn-primary btn-midsize"><i class="fas fa-paper-plane mr-1"></i> Send</button>
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<?php
+get_footer();

@@ -1,0 +1,80 @@
+.title-1 {
+    @include font-size($title1-sizes);
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.title-1 span {
+    display: block;
+    font-size: .6em;
+    font-weight: 100;
+    line-height: 1.8;
+    font-size: 24px;
+}
+
+.title-2 {
+    text-align: center;
+    @include font-size($title2-sizes);
+    font-weight: bold;
+}
+
+.title-2 span {
+    display: block;
+    font-size: .4em;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: $primaryHover !important;
+    border-color: $primaryHover !important;
+    box-shadow: none;
+}
+
+.c-primary {
+    color: $primary !important;
+}
+
+.c-primary-darker {
+    color: $primaryDarker !important;
+}
+
+.c-secondary {
+    color: $secondary !important;
+}
+
+.dark {
+    color: $dark;
+}
+
+.c-medium {
+    color: #777;
+}
+
+.c-light {
+    color: #BBB;
+}
+
+.c-lighter {
+    color: #DDD;
+}
+
+.c-dark {
+    color: $dark;
+}
+
+.bg-light {
+    background: #F3F3F3 !important;
+}
+
+.bg-dark {
+    background-color: #2E2E2E !important;
+}

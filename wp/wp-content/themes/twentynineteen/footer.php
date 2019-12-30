@@ -25,9 +25,9 @@
             <div class="col-lg text-right">
                 <h4>Contact</h4>
                 <ul class="list-unstyled c-light mt-4">
-                    <li>704-284-4468</li>
-                    <li>info@raptorwebsolutions.com</li>
-                    <li>Charlotte, NC</li>
+                    <li>888-555-1212</li>
+                    <li>info@firstinflightskateboards.com</li>
+                    <li>Hickory, NC</li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="row c-lighter">
             <div class="col-lg">
-                Raptor Web Solutions &copy; 2020 All Rights Reserved
+                First In Flight Skateboards &copy; 2020 All Rights Reserved
             </div>
             <div class="col-lg">
                 <div class="app-iconset-1 text-right">

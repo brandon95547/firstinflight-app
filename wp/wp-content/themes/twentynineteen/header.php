@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Raptor Web Solutions</title>
+    <title>First In Flight</title>
 
     <!-- <meta http-equiv="refresh" content="9" > -->
 
@@ -18,7 +18,7 @@
         <div class="top px-3 pv-1">
             <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
                 <h1 class="logo">
-                    <a class="navbar-brand" href="#">Raptor Web Solutions</a>
+                    <a class="navbar-brand" href="#"> First In Flight Skateboards</a>
                 </h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,10 +32,10 @@
                             <a class="nav-link" data-scroll="#home" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-scroll="#services" href="#services">Our Services</a>
+                            <a class="nav-link" data-scroll="#our-products" href="#shop">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-scroll="#recent-work" href="#recent-work">Recent Work</a>
+                            <a class="nav-link" data-scroll="#events" href="#events">Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-scroll="#blog" href="#blog">Blog</a>
@@ -45,7 +45,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">
-                                <i class="material-icons cubed">search</i>
+                                <i class="material-icons cubed">shopping_cart</i>
                             </a>
                         </li>
                     </ul>
@@ -54,9 +54,9 @@
         </div>
         <div class="bottom">
             <div class="inner px-3">
-                <h2 class="title-1"><span>Charlotte, NC</span>We Build Awesome Web Apps</h2>
+                <h2 class="title-1"><span>Hickory, NC</span>Skateshop Coming Soon!</h2>
                 <p class="mt-3">
-                    Need something developed? The process is easier than you think. All we need is a sit down meeting to discuss your goals and we can begin.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos explicabo animi, repudiandae facilis quia maxime neque beatae sequi unde deleniti optio vel, totam hic modi fugit vero illum nam!
                 </p>
                 <a href="" data-scroll="#contact" class="btn btn-outline-light mt-3 btn-midsize">Get Started</a>
             </div>

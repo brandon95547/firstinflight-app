@@ -1,3 +1,5 @@
+"use strict";
+
 $(function () {
   var appTopHeight = $('.app-header .top').height();
   $('.app-header .bottom').height(window.innerHeight - appTopHeight);
@@ -16,33 +18,18 @@ $(function () {
   });
   $('[data-scroll]').on("click", function (e) {
     e.preventDefault();
-    let target = $(this).attr('data-scroll');
-    let offset = target != '#home' ? $(target).offset().top - appTopHeight : 0;
+    var target = $(this).attr('data-scroll');
+    var offset = target != '#home' ? $(target).offset().top - appTopHeight : 0;
     $('html, body').animate({
       scrollTop: offset
     }, 1000);
   });
-  const form = document.getElementById('contact');
-  const xhttp = new XMLHttpRequest();
-
-  xhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      console.log(this.responseText);
-    }
-  };
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    xhttp.open("POST", "contact.php", true);
-    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhttp.send("fname=Henry&lname=Ford");
-  });
 });
 
 function adjustTop() {
-  let target = $('.app-header .top');
-  let scrollPos = $(document).scrollTop();
-  let appTopHeight = $('.app-header .top').innerHeight();
+  var target = $('.app-header .top');
+  var scrollPos = $(document).scrollTop();
+  var appTopHeight = $('.app-header .top').innerHeight();
 
   if (scrollPos >= 50) {
     if (!target.hasClass('fixed-top')) {

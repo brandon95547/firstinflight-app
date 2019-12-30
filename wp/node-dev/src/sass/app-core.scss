@@ -1,9 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: #444;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: $fontHeadings;
+}
+a {
+  color: $secondary2;
 }
 p,
 .btn {
@@ -25,17 +29,18 @@ h1.logo {
   margin: 0;
 }
 .app-header h1.logo a {
-  display: block;
-  background-image: url(/images/raptor-logo-light.png);
+  display: inline-block;
+  background-image: url(../img/raptor-logo-light.png);
   background-size: cover;
-  height: 55px;
+  height: 46px;
   text-indent: -9999px;
   overflow: hidden;
   white-space: nowrap;
-  width: 220px;
+  width: 280px;
+  vertical-align: middle;
 }
 .app-header .top.fixed-top h1.logo a {
-  background-image: url(/images/raptor-logo-dark.png);
+  background-image: url(../img/raptor-logo-dark.png);
   opacity: .9;
 }
 .app-header .bottom .inner {
@@ -91,6 +96,9 @@ h1.logo {
   opacity: .7;
   white-space:nowrap;
   font-weight: 300;
+  @include device-md-max {
+    opacity: .9;
+  }
 }
 
 .app-header .top.fixed-top .nav-item a {
@@ -107,7 +115,7 @@ h1.logo {
 }
 
 .app-header {
-  background: url(/images/bg-2.jpg);
+  background: url(../img/vans-1642993_1920.jpg);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
@@ -125,6 +133,7 @@ h1.logo {
 
 .app-header img {
   @include logo-size($logo-sizes);
+  margin-right: 8px;
 }
 
 .app-recent-work {
@@ -156,4 +165,20 @@ h1.logo {
   @include device-md {
     margin-bottom: 16px;
   }
+}
+
+/* new */
+.app-title-1 {
+  text-align: center;
+}
+.app-title-1 .title span {
+  color: #cece2f;
+}
+.hot-deals {
+  background-image: url(../img/bg-spe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.app-display-1 h5 {
+  font-size: .9em;
 }

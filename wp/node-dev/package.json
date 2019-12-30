@@ -12,7 +12,7 @@
     "start-server": "babel-node app.js",
     "build-css": "npm run scss-compile && npm run css-autoprefix && npm run css-min",
     "clearFonts": "exec rm -rf public/fonts",
-    "getGoogleFonts": "goofoffline outDir=../wp-content/themes/twentynineteen/css/fonts \"http://fonts.googleapis.com/css?family=Poppins|Roboto:300,400\"",
+    "getGoogleFonts": "goofoffline outDir=../wp-content/themes/twentynineteen/css/fonts \"http://fonts.googleapis.com/css?family=Rock+Salt|Poppins|Roboto:300,400\"",
     "scss-compile": "node-sass src/sass/app.scss -o ../wp-content/themes/twentynineteen/css",
     "js-compile": "babel src/js --out-dir ../wp-content/themes/twentynineteen/js",
     "css-autoprefix": "npx postcss ../wp-content/themes/twentynineteen/css/app.css --use=autoprefixer --output=../wp-content/themes/twentynineteen/css/app.css",

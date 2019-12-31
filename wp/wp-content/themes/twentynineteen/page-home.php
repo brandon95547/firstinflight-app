@@ -91,7 +91,8 @@ get_header();
             hot <span>deals</span>
         </h2>
         <p class="des-title mt-4 text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Dien numquam vitae, nesciunt vel totam ullam hic praesentium? Aspernatur, repudiandae?
+            If there's a certain type of board you're looking for, send us a note and we will have it built for you. <br>
+            Stay updated with our events, as we are always giving away great products.
         </p>
     </div>
     <div class="app-display-1 mt-5">

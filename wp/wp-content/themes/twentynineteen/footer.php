@@ -19,7 +19,7 @@
             <div class="col-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/raptor-logo-light.png" alt="" class="logo">
                 <p class="mt-4 c-light">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis tenetur debitis nulla est corporis distinctio velit ab omnis vitae.
+                    First In Flight skateboards is a local business located in Hickory, NC. We offer all major brands, wheels, parts and other inventory.
                 </p>
             </div>
             <div class="col-lg text-right">

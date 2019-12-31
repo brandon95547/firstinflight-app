@@ -54,6 +54,6 @@
 <!-- <script src="./node-dev/node_modules/reload/lib/reload.js"></script> -->
 <script src="./node-dev/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./node-dev/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="./node-dev/public/javascripts/main.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 </body>

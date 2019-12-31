@@ -41,8 +41,7 @@ get_header();
         <h2 class="title">
             our <span>products</span>
         </h2>
-        <p class="des-title mt-4">Browse the collection of our new products and latest products.
-            <br>You will denfinitely find what you are looking for.</p>
+        <p class="des-title mt-4">We have a variety of skateboards and carry most major brands. <br>We will soon be adding a complete inventory of products.</p>
     </div>
 
     <ul class="nav justify-content-center mb-4">

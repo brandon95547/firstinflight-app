@@ -54,9 +54,9 @@
         </div>
         <div class="bottom">
             <div class="inner px-3">
-                <h2 class="title-1"><span>Hickory, NC</span>Skateshop Coming Soon!</h2>
+                <h2 class="title-1"><span>Hickory, NC</span>Welcome to First in Flight!</h2>
                 <p class="mt-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos explicabo animi, repudiandae facilis quia maxime neque beatae sequi unde deleniti optio vel, totam hic modi fugit vero illum nam!
+                    Welcome to our skateboard shop where we offer skateboards, wheels, barrings and other related products. We carry most major brands and if there's anything you need custom, we can order it.
                 </p>
                 <a href="" data-scroll="#contact" class="btn btn-outline-light mt-3 btn-midsize">Get Started</a>
             </div>

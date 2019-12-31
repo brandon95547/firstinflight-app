@@ -12,9 +12,15 @@ $(function () {
 
     $('.app-header .bottom').height(targetHeight);
   });
-  adjustTop();
-  $(window).scroll(function () {
+
+  if (window.innerWidth >= 992) {
     adjustTop();
+  }
+
+  $(window).scroll(function () {
+    if (window.innerWidth >= 992) {
+      adjustTop();
+    }
   });
   $('[data-scroll]').on("click", function (e) {
     e.preventDefault();
@@ -40,8 +46,11 @@ function adjustTop() {
       }, 500);
     }
   } else {
-    target.removeClass('fixed-top');
-    target.removeClass('fadeIn animated');
-    $('body').css('padding-top', 0);
+    // remember since the top uses a timeout, we must use the same timeout on the recall
+    setTimeout(function () {
+      target.removeClass('fixed-top');
+      target.removeClass('fadeIn animated');
+      $('body').css('padding-top', 0);
+    }, 500);
   }
 }

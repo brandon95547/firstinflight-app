@@ -108,7 +108,7 @@ get_header();
                             <h5 class="text-secondary">Recent Articles</h5>
 
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quis accusamus odio quae modi nobis numquam ullam voluptatum sint provident asperiores, dolores facilis excepturi blanditiis esse reiciendis illum totam. Fugit.
+                                There are tons of places around town to skateboard. Stay up to date with us, as we will be posting many areas you may not know about to hang out and chill.
                             </p>
 
                             <a href="" data-scroll="#contact" class="btn btn-outline-dark mt-3 btn-midsize">Learn More</a>

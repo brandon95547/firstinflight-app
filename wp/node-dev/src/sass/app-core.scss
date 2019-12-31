@@ -93,7 +93,7 @@ h1.logo {
   color: white;
   letter-spacing: .5px;
   @include font-size($nav-font-sizes);
-  opacity: .7;
+  opacity: .8;
   white-space:nowrap;
   font-weight: 300;
   @include device-md-max {

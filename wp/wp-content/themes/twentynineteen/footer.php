@@ -25,7 +25,7 @@
             <div class="col-lg text-right">
                 <h4>Contact</h4>
                 <ul class="list-unstyled c-light mt-4">
-                    <li>888-555-1212</li>
+                    <li>828-291-8040</li>
                     <li>info@firstinflightskateboards.com</li>
                     <li>Hickory, NC</li>
                 </ul>

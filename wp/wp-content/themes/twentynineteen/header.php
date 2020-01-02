@@ -56,7 +56,7 @@
             <div class="inner px-3">
                 <h2 class="title-1"><span>Hickory, NC</span>Welcome to First in Flight!</h2>
                 <p class="mt-3">
-                    Welcome to our skateboard shop where we offer skateboards, wheels, barrings and other related products. We carry most major brands and if there's anything you need custom, we can order it.
+                    Welcome to our skateboard shop where we offer skateboards, wheels, bearings and other related products. We carry most major brands and if there's anything you need custom, we can order it.
                 </p>
                 <a href="" data-scroll="#contact" class="btn btn-outline-light mt-3 btn-midsize">Get Started</a>
             </div>

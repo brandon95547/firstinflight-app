@@ -15,19 +15,19 @@ get_header();
         <div class="row">
             <div class="col col-lg-4 col-md-4 col-xs-12">
                 <div class="warpper">
-                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.1.jpg"
+                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.1.jpg?v=1"
                             alt="" class="img-responsive"></div>
                 </div>
             </div>
             <div class="col col-lg-4 col-md-4 col-xs-12">
                 <div class="warpper">
-                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.2.jpg"
+                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.2.jpg?v=1"
                             alt="" class="img-responsive"></div>
                 </div>
             </div>
             <div class="col col-lg-4 col-md-4 col-xs-12">
                 <div class="warpper">
-                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.3.jpg"
+                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.3.jpg?v=1"
                             alt="" class="img-responsive"></div>
                 </div>
             </div>
@@ -62,21 +62,21 @@ get_header();
         <div class="row">
             <div class="col col-lg-4 col-md-4 col-xs-12">
                 <div class="warpper">
-                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.4.jpg"
+                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.4.jpg?v=1"
                             alt="" class="img-responsive">
                     </div>
                 </div>
             </div>
             <div class="col col-lg-4 col-md-4 col-xs-12">
                 <div class="warpper">
-                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.5.jpg"
+                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.5.jpg?v=1"
                             alt="" class="img-responsive">
                     </div>
                 </div>
             </div>
             <div class="col col-lg-4 col-md-4 col-xs-12">
                 <div class="warpper">
-                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.6.jpg"
+                    <div class="banner-img"><img src="<?php echo get_template_directory_uri(); ?>/img/cms_2.6.jpg?v=1"
                             alt="" class="img-responsive">
                     </div>
                 </div>
@@ -99,7 +99,7 @@ get_header();
         <div class="container">
             <div class="row no-gutters bg-white">
                 <div class="col-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/ride-saturday-snowboard(2).jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/ride-saturday-snowboard(2).jpg?v=1" alt="">
                 </div>
                 <div class="col-8">
                     <div class="">

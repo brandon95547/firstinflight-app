@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg">
                 <div class="app-iconset-1 text-right">
-                    <a href="" class="btn btn-outline-light"><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/First-in-Flight-Skateshop-106903644153785/" class="btn btn-outline-light"><i class="fab fa-facebook-f"></i></a>
                     <a href="" class="btn btn-outline-light ml-2"><i class="fab fa-youtube"></i></a>
                     <a href="" class="btn btn-outline-light ml-2"><i class="fab fa-linkedin-in"></i></a>
                 </div>

@@ -9,4 +9,4 @@ wp_enqueue_style( 'animate-css', '/node-dev/node_modules/animate.css/animate.min
 wp_enqueue_style( 'material-icons', '/node-dev/node_modules/material-icons/iconfont/material-icons.css',false,'1.1','all');
 wp_enqueue_style( 'fontawesome', '/node-dev/node_modules/@fortawesome/fontawesome-free/css/all.min.css',false,'1.1','all');
 wp_enqueue_style( 'bootstrap', '/node-dev/node_modules/bootstrap/dist/css/bootstrap.min.css',false,'1.1','all');
-wp_enqueue_style( 'main', get_template_directory_uri() . '/css/app.min.css',false,'1.1','all');
+wp_enqueue_style( 'main', get_template_directory_uri() . '/css/app.min.css?v=' . time(),false,'1.1','all');

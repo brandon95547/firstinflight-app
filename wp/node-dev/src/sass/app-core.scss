@@ -5,9 +5,13 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: $fontHeadings;
+  font-weight: bold;
 }
 a {
-  color: $secondary2;
+  color: $medium;
+}
+a.nav-link.active {
+  color: $dark;
 }
 p,
 .btn {
@@ -172,7 +176,7 @@ h1.logo {
   text-align: center;
 }
 .app-title-1 .title span {
-  color: #cece2f;
+  color: $primary;
 }
 .hot-deals {
   background-image: url(../img/bg-spe.jpg);

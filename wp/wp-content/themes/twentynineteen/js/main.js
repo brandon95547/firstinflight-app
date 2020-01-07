@@ -1,7 +1,7 @@
 "use strict";
 
 $(function () {
-  var appTopHeight = $('.app-header .top').height();
+  var appTopHeight = $('.app-header .top').innerHeight();
   $('.app-header .bottom').height(window.innerHeight - appTopHeight);
   $(window).resize(function () {
     var targetHeight = window.innerHeight - appTopHeight;
@@ -33,24 +33,20 @@ $(function () {
 });
 
 function adjustTop() {
+  var $ = jQuery;
   var target = $('.app-header .top');
   var scrollPos = $(document).scrollTop();
   var appTopHeight = $('.app-header .top').innerHeight();
 
   if (scrollPos >= 50) {
     if (!target.hasClass('fixed-top')) {
-      setTimeout(function () {
-        target.addClass('fixed-top');
-        target.addClass('fadeIn animated');
-        $('body').css('padding-top', appTopHeight);
-      }, 500);
+      target.addClass('fixed-top');
+      target.addClass('fadeIn animated');
+      $('body').css('padding-top', appTopHeight);
     }
   } else {
-    // remember since the top uses a timeout, we must use the same timeout on the recall
-    setTimeout(function () {
-      target.removeClass('fixed-top');
-      target.removeClass('fadeIn animated');
-      $('body').css('padding-top', 0);
-    }, 500);
+    target.removeClass('fixed-top');
+    target.removeClass('fadeIn animated');
+    $('body').css('padding-top', 0);
   }
 }

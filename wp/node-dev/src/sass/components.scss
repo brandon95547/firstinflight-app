@@ -31,40 +31,6 @@ i.cubed--dark {
 .rws-listgroup-1, .app-footer-1 .btn {
     text-align: left;
 }
-.app-footer-1 h3 {
-    font-size: 20px;
-    color: #EEE;
-    border-bottom: 1px solid rgba(255,255,255,.2);
-    padding-bottom: 6px;
-}
-.app-footer-1 .col-md-3:not(:first-child) h3 {
-    @include device-md-max {
-        margin-top: 18px;
-    }
-}
-.app-footer-1 ul {
-    margin-top: 20px;
-    line-height: 1.9;
-    padding: 0;
-    @include device-md-max {
-        margin-top: 16px;
-    }
-}
-.app-footer-1 ul a, .app-footer-1 p {
-    color: #aaa;
-}
-.app-footer-1 .btn {
-    background: $primary;
-    color: #EEE;
-    padding: 8px 10px;
-}
-.app-footer-1 .btn i {
-    font-size: 1.35em;
-    margin-right: 4px;
-}
-.app-footer-1 p {
-    line-height: 1.5;
-}
 .footer-bottom i {
     color: #EEE;
 }
@@ -86,4 +52,11 @@ i.cubed--dark {
 .app-footer-3 .btn {
     border-radius: 0;
     font-size: 14px;
+}
+.app-products ul.nav a {
+    color: $dark;
+    font-weight: bold;
+}
+.app-products ul.nav a.active {
+    color: $primary;
 }

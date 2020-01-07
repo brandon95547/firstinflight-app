@@ -36,7 +36,7 @@ get_header();
 </div>
 
 
-<div id="our-products" class="pv-6">
+<div id="our-products" class="pv-6 app-products">
     <div class="app-title-1">
         <h2 class="title">
             our <span>products</span>
@@ -46,16 +46,16 @@ get_header();
 
     <ul class="nav justify-content-center mb-4">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link active" href="#">Skateboards</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Apparel</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">T-Shirts</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Other</a>
         </li>
     </ul>
     <div class="container">

@@ -138,8 +138,7 @@ get_header();
                     upcoming <span>events</span>
                 </h2>
                 <p class="mt-3">
-                    Do you want to present posts in the best way to highlight interesting moments of your blog? Focus on
-                    the latest news!
+                    Stay up to date with our latest events. We are hosting a grand opening soon and look forward to providing the Catawba County area with an awesome skate shop!
                 </p>
 
                 <div class="media mt-4">

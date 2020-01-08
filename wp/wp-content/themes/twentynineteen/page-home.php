@@ -147,11 +147,7 @@ get_header();
                     <div class="media-body">
                         <h5 class="mt-0 title">Grand Opening</h5>
                         <p>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                            Cras
-                            purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                            nisi
-                            vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            We invite all of you out to our grand opening, as we bring a new innovative skateboard shop to the Catawba County area. We'll see everybody there!
                         </p>
                         <a href="#">Read More</a>
                     </div>
@@ -161,13 +157,9 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/img/home_default-3.jpg?v=<?php echo time(); ?>"
                         class="mr-4" alt="...">
                     <div class="media-body">
-                        <h5 class="mt-0 title">Media heading</h5>
+                        <h5 class="mt-0 title">Looking for Skills!</h5>
                         <p>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                            Cras
-                            purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                            nisi
-                            vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            We will soon be hosting an event where you can submit your most awesome track of the week and trick of the month. Don't forget to join our Facebook page to stay up to date with all of our events.
                         </p>
                         <a href="#">Read More</a>
                     </div>

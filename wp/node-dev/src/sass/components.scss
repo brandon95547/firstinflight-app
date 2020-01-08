@@ -57,6 +57,45 @@ i.cubed--dark {
     color: $dark;
     font-weight: bold;
 }
-.app-products ul.nav a.active {
+.app-products ul.nav a.active, .app-products ul.nav a:hover {
     color: $primary;
+}
+.app-latest-blogs img {
+    max-width: 275px;
+}
+.app-latest-blogs .title {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.app-contact form {
+    background: $primary;
+    color: white;
+}
+.app-contact input,
+.app-contact textarea,
+.app-contact input:focus,
+.app-contact textarea:focus {
+    background: $primaryDarker;
+    color: white;
+    border: none;
+}
+
+.app-contact input::placeholder,
+.app-contact textarea::placeholder {
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.app-contact input:-ms-input-placeholder,
+.app-contact textarea::placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.app-contact input::-ms-input-placeholder,
+.app-contact textarea::placeholder {
+    /* Microsoft Edge */
+    color: white;
 }

@@ -15,7 +15,7 @@
 <body>
 
     <header class="app-header">
-        <div class="top px-3 pv-1">
+        <div class="top px-3">
             <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
                 <h1 class="logo">
                     <a class="navbar-brand" href="#"> First In Flight Skateboards</a>

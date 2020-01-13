@@ -13,7 +13,7 @@
 
 ?>
 
-<div class="app-footer-3 pv-7 bg-dark">
+<div class="app-footer-3 pb-6 pt-5 bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-lg">

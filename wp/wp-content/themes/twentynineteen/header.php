@@ -13,6 +13,9 @@
 </head>
 
 <body>
+    <div id="maintenance" style="padding: 20px; background-color: #c17676; font-size: 1.3em">
+        This website is undergoing maintenance.
+    </div>
 
     <header class="app-header">
         <div class="top px-3">

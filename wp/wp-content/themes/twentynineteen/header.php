@@ -34,15 +34,15 @@
                         <li class="nav-item">
                             <a class="nav-link" data-scroll="#our-products" href="#shop">Shop</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" data-scroll="#events" href="#events">Events</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" data-scroll="#blog" href="#blog">Blog</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" data-scroll="#contact" href="#contact">Contact</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="">
                                 <i class="material-icons cubed">shopping_cart</i>

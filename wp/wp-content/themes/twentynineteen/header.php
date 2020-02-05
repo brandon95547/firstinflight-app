@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div id="maintenance" style="padding: 20px; background-color: #c17676; font-size: 1.3em; color: white">
+    <div id="maintenance" style="padding: 10px 20px; background-color: #c17676; font-size: 1.3em; color: white">
         This website is undergoing maintenance.
     </div>
 
